@@ -4,7 +4,7 @@ from users.models import User
 class UserRegisterSerializer(serializers.ModelSerializer): 
     class Meta: 
         model = User
-        fields = ['id', 'email', 'username', 'password']
+        fields = ['id', 'email', 'username', 'password', 'first_name', 'last_name']
 
     #Metodo para realizar la encripcion de la contrasena del usuario
     def create(self, validated_data): 
@@ -14,3 +14,10 @@ class UserRegisterSerializer(serializers.ModelSerializer):
             instance.set_password(password)
         instance.save()
         return instance
+
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model = User
+        fields = ['id','email','username','first_name','last_name']
