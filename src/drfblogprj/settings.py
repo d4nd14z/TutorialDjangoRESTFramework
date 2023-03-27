@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework', # Esta es la instalacion de Django REST Framework
     'drf_yasg',       # Este es el sistema de documentacion de la API
     'users',
+    'categories',
 ]
 
 MIDDLEWARE = [
