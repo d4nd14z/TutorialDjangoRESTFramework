@@ -10,3 +10,7 @@ pip install djangorestframework-simplejwt
 
 ### Generar la documentacion de la API: 
 https://drf-yasg.readthedocs.io/en/stable/readme.html#usage
+
+### Utilizacion de Django REST Framework - Simple JWT
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+
