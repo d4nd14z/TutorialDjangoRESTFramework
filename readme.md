@@ -3,9 +3,9 @@
 ### 26/03/2023
 
 ### Librerias instaladas
-pip install djangorestframework
-pip install drf-yasg
-pip install djangorestframework-simplejwt
+##### pip install djangorestframework
+##### pip install drf-yasg
+##### pip install djangorestframework-simplejwt
 
 
 ### Generar la documentacion de la API: 
