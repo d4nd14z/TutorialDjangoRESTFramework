@@ -21,3 +21,10 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta: 
         model = User
         fields = ['id','email','username','first_name','last_name']
+
+#Se crea un nuevo serializador unicamente para actualizar UNICAMENTE first_name y last_name
+#Si se utilizara otro serializador, se daria acceso a todos los demas datos.
+class UserUpdateSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model = User
+        fields = ['first_name','last_name']
