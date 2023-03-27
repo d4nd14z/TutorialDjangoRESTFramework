@@ -15,5 +15,5 @@ https://drf-yasg.readthedocs.io/en/stable/readme.html#usage
 https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
 
 ### Utilizacion de Filtros sobre los resultados de los EndPoints
-https://django-rest-framework.org/#installation
+https://www.django-rest-framework.org/#installation
 
