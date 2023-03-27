@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework', # Esta es la instalacion de Django REST Framework
-    'drf_yasg',       # Este es el sistema de documentacion de la API
+    'rest_framework',  # Esta es la instalacion de Django REST Framework
+    'drf_yasg',        # Este es el sistema de documentacion de la API
+    'django_filters',  # Este agrega filtros de resultados en los EndPoints
     'users',
     'categories',
 ]
